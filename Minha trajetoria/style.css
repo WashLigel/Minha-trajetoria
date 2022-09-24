@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+*{
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "poppins", sans-serif;
+}
+
+body{
+    overflow: scroll;
+}
+
+.background {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+        background-image: url(background.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 113vh;
+    
+
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+.cabeçalho-link{
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;
+
+}
+.cabeçalho-link a{
+    color: white;
+    font-size: 20px;
+}
+.cabeçalho-link a:hover{
+    color: yellow;
+    transition: 0.5s;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 1px solid purple;
+    color: purple;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+button{
+    color: purple;
+    background: transparent;
+    border: solid 1px purple;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 15px;
+    width: 150px;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color: purple;
+    color: white;
+    transition: 0.5s;
+}
+.countainer-text{
+    padding: 300px 0 0 300px;
+    display: flex;
+    flex-direction: row;
+
+    
+    
+
+}
+
+.text h3{
+    color: white;
+    font-size: 25px;
+
+}
+
+.text h1{
+    color: white;
+    margin-top: 10px;
+}
+
+.text span{
+    color: rgb(199, 62, 199);
+    text-shadow: 0.1em 0.1em 0.1em black;
+    
+}
+
+.text p {
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.redes-sociais a{
+    color: blueviolet;
+    padding: 15px;
+    margin-top: 10px;
+
+}
+
+.btn{
+    margin: 15px 10px 0px 20px;
+}
+
+#h1dados{
+    font-size: -100%;
+    text-align: center;
+    margin-top: -100px;
+    margin-left: 350px;
+    
+    
+}
+.eu-img{
+    width: 300px;
+    margin-left: 70px;
+    margin-top: -250px;
+}
+
+.countainer-textfalecomigo{
+    text-align: center;
+    color: white;
+    text-shadow: 0.1em 0.1em 0.1em black;
+    padding-left: 300px;
+    padding-right: 300px;
+    display: block;
+
+    
+}
+#eu{
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+}
+.countainer-texthobbies{
+    padding: 300px 0 0 30px;
+    display: flex;
+    flex-direction: row;
+    text-shadow: 0.1em 0.1em 0.1em black;
+
+
+}
